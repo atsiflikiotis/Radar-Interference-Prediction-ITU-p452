@@ -149,7 +149,7 @@ class MainGUI(ttk.Frame):
 
         master.title('Radar Interference Prediction (ITU P.472)')
         master.geometry('1400x700')
-        # master.iconbitmap('icon.ico')
+        master.iconbitmap('icon.ico')
 
         try:
             self.antennas = pd.read_hdf('database.hdf', key='db')
@@ -881,7 +881,7 @@ class MainGUI(ttk.Frame):
         y = self.master.winfo_y()
         self.settingswindow.geometry("+%d+%d" % (x + 100, y + 70))
 
-        # self.settingswindow.iconbitmap('icon.ico')
+        self.settingswindow.iconbitmap('icon.ico')
 
         # read saved variables
         self.zoneselvar.set(self.zonesel)
