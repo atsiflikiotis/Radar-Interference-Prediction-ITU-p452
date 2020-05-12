@@ -27,7 +27,7 @@ https://search.earthdata.nasa.gov/search
 If any hgt file is missing from directory, there is the choice to fill with 0s, or a warning appears with the list of all missing hgt files.
 
 
-Finally, transmitter gain can be calculated using the selected antenna radiation pattern, from a pandas dataframe stored as 'database.hdf' in the root directory. The dataframe has columns: [antenna name, el.tilt, gain, pattern], where pattern is a (2, 361) shaped numpy array containing the horizontal and vertical radiation pattern of antennas. An example database is given, but you can use the module 'create_antenna_db.py' to use other radiation patterns (.csv files) to create your own database (no gui toll for database as of now)."
+Finally, transmitter gain can be calculated using the selected antenna radiation pattern, from a pandas dataframe stored as 'database.hdf' in the root directory. The dataframe has columns: [antenna name, el.tilt, gain, pattern], where pattern is a (2, 361) shaped numpy array containing the horizontal and vertical radiation pattern of antennas (relative gain loss (dB) to each angle. An example database is given, but you can use the module 'create_antenna_db.py' to use other radiation patterns (.csv files) to create your own database (no gui toll for database as of now)."
 
 
 # More info:
