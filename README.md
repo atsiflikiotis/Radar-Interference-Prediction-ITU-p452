@@ -28,3 +28,16 @@ If any hgt file is missing from directory, there is the choice to fill with 0s, 
 
 
 Finally, transmitter gain can be calculated using the selected antenna radiation pattern, from a pandas dataframe stored as 'database.hdf' in the root directory. The dataframe has columns: [antenna name, el.tilt, gain, pattern], where pattern is a (2, 361) shaped numpy array containing the horizontal and vertical radiation pattern of antennas. An example database is given, but you can use the module 'create_antenna_db.py' to use other radiation patterns (.csv files) to create your own database (no gui toll for database as of now)."
+
+
+# More info:
+ITU-R P.452: Prediction procedure for the evaluation of interference between stations on the surface of the Earth at frequencies above about 0.1 GHz
+
+visit for more info: 
+
+https://www.itu.int/rec/R-REC-P.452-16-201507-I/en
+
+
+There is a matlab implementation already published by ITU-R Study Group 3, you can download it from below url (validation examples also provided in the site):
+
+https://www.itu.int/en/ITU-R/study-groups/rsg3/Pages/iono-tropo-spheric.aspx
