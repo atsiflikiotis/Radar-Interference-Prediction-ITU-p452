@@ -236,7 +236,7 @@ class MainGUI(ttk.Frame):
         timelabel = tk.Label(paramframe, text='Time percentage (%):')
         timelabel.grid(row=1, column=0, padx=5, pady=4, sticky='nsw')
         self.timeentry = ValidEntry(paramframe, 'float', width=6)
-        self.timeentry.insert(0, 0.001)
+        self.timeentry.insert(0, 20)
         self.timeentry.grid(row=1, column=1, padx=7, pady=4, sticky='nse')
         self.poldict = {'Vertical polarization': 2, 'Horizontal polarization': 1, 'Slant polarization': 3}
         self.polarbox = ttk.Combobox(paramframe, values=[*self.poldict.keys()], width=21, state='readonly')
@@ -762,7 +762,7 @@ class MainGUI(ttk.Frame):
             # update transmission results
             self.rxlevelvar.set(f'{rxlevel:9.2f}')
             self.tlossvar.set(f'{Lb:9.2f}')
-            self.fspgaslossvar.set(f'{Lb0p:9.2f}')
+            self.fspgaslossvar.set(f'{Lbfsg:9.2f}')
             self.difflossvar.set(f'{Ldp:9.2f}')
             self.txgainvar.set(f'{Gt:9.2f}')
 
