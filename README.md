@@ -29,6 +29,8 @@ If any hgt file is missing from directory, there is the choice to fill with 0s, 
 
 Finally, transmitter gain can be calculated using the selected antenna radiation pattern, from a pandas dataframe stored as 'database.hdf' in the root directory. The dataframe has columns: [antenna name, el.tilt, gain, pattern], where pattern is a (2, 361) shaped numpy array containing the horizontal and vertical radiation pattern of antennas (relative gain loss (dB) at each angle). An example database and antennas patterns are given, but you can use the module 'create_antenna_db.py' to use other radiation patterns (.csv files) to create your own database (no gui toll for database as of now)."
 
+# Screenshot of the main GUI:
+https://raw.githubusercontent.com/atsiflikiotis/Radar-Interference-Prediction/master/Screenshot1.png?token=ALAVZ555NSU2JNCNGOBULL3AZ3VRM
 
 # More info:
 ITU-R P.452: Prediction procedure for the evaluation of interference between stations on the surface of the Earth at frequencies above about 0.1 GHz
