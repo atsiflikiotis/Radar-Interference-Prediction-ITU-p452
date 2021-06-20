@@ -41,6 +41,6 @@ visit for more info:
 https://www.itu.int/rec/R-REC-P.452-16-201507-I/en
 
 
-There is a matlab implementation already published by ITU-R Study Group 3, you can download it from below url (validation examples also provided in the site):
+There is a matlab implementation already published by ITU-R Study Group 3, for the main calculation of transmission loss according to p452 (without SRTM path profile generation). You can download it from below url (validation examples also provided in the site):
 
 https://www.itu.int/en/ITU-R/study-groups/rsg3/Pages/iono-tropo-spheric.aspx
