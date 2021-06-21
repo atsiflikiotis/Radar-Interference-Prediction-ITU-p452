@@ -1,5 +1,5 @@
 # Radar-Interference-Prediction
-This a Python GUI program to compute the basic transmission loss according to ITU-R P.452-16 recommendation, using SRTM data to generate the elevation profile path.
+This a Python GUI program to compute the basic transmission loss according to ITU-R P.452-16 recommendation, compatible with NASA's SRTM data to generate the elevation profile path.
 
 # Initilization
 Run main.py to initialize the GUI. 
